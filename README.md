@@ -35,5 +35,3 @@ Here is exercise 1 in Ruby on Rails from day 23 of The Hacking Project: FreeDoc 
   - `name`
 
 1. A `city` can have several `doctors`, `patients`, and `appointments`.
-
-
