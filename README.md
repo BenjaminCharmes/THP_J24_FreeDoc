@@ -4,7 +4,7 @@ Here is exercise 1 in Ruby on Rails from day 23 of The Hacking Project: FreeDoc 
 
 <h2 align="center">🎉 Day 9 of the Full Stack training 🎉</h2>
 
-### Models
+### Models & Tables
 
 - `Doctors` 
   - `first_name`
