@@ -16,11 +16,11 @@ specialty.each do |specialty|
 end
 
 10.times do
-  Doctor.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, zip_code: Faker::Number.number(digits:5), city_id: rand(1..10))
+  Doctor.create!(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name, zip_code: Faker::Address.zip_code, city_id: rand(1..10))
 end
 
 20.times do
-  DoctorSpecialty.create!(doctor_id: rand(0..10), specialty_id: rand(0..5))
+  DoctorSpecialty.create!(doctor_id: rand(1..10), specialty_id: rand(1..5))
 end
 
 50.times do
